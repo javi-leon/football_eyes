@@ -1,0 +1,61 @@
+INFO 2026-09-04 20:34:01,953 [_config.py:<module>:91]
+No custom team name replacements found. You can configure these in ../soccerdata_local/config/teamname_replacements.json.
+
+INFO 2026-09-04 20:34:01,963 [_config.py:<module>:187]
+Custom league dict loaded from ../soccerdata_local/config/league_dict.json.
+
+INFO 2026-09-04 20:34:01,969 [_common.py:__init__:250]
+Saving cached data to ../soccerdata_local/data/Sofascore
+
+INFO 2026-09-04 20:34:01,972 [libraries.py:load:435]
+Downloading required library version v1.13.1...
+
+INFO 2026-09-04 20:34:01,973 [libraries.py:download:314]
+System Info - Platform: linux, Machine: amd64 (Ubuntu), File Ext : so.
+
+INFO 2026-09-04 20:34:03,046 [libraries.py:export_config:193]
+Saved release config to /home/achojabier/football_eyes/.venv/lib/python3.14/site-packages/tls_requests/bin/release.json
+
+INFO 2026-09-04 20:34:03,052 [libraries.py:fetch_api:239]
+Fetched release data from GitHub API.
+
+INFO 2026-09-04 20:34:03,054 [libraries.py:download:328]
+Trying to download library from: https://github.com/bogdanfinn/tls-client/releases/download/v1.13.1/tls-client-linux-ubuntu-amd64-1.13.1.so
+
+INFO 2026-09-04 20:34:05,004 [libraries.py:_load_library:397]
+Successfully loaded TLS library: /home/achojabier/football_eyes/.venv/lib/python3.14/site-packages/tls_requests/bin/tls-client-linux-ubuntu-amd64-1.13.1.so
+
+INFO 2026-09-04 20:42:56,308 [_common.py:__init__:250]
+Saving cached data to ../soccerdata_local/data/Sofascore
+
+INFO 2026-09-04 20:43:23,679 [_common.py:__init__:250]
+Saving cached data to ../soccerdata_local/data/Sofascore
+
+INFO 2026-09-04 20:43:53,149 [_common.py:__init__:250]
+Saving cached data to ../soccerdata_local/data/Sofascore
+
+INFO 2026-09-04 20:43:58,017 [_common.py:__init__:250]
+Saving cached data to ../soccerdata_local/data/Sofascore
+
+INFO 2026-09-04 20:48:41,746 [_common.py:__init__:250]
+Saving cached data to ../soccerdata_local/data/Sofascore
+
+INFO 2026-09-04 20:48:41,785 [_common.py:seasons:462]
+No seasons provided. Will retrieve data for the last 5 seasons.
+
+WARNING 2026-09-04 20:48:41,788 [_py_warnings.py:_showwarnmsg:230]
+/home/achojabier/football_eyes/.venv/lib/python3.14/site-packages/soccerdata/_common.py:419: UserWarning: The leagues have different default season codes. Using multi-year season codes.
+  return SeasonCode.from_leagues(self.leagues)
+
+
+INFO 2026-09-04 20:50:52,826 [_common.py:__init__:250]
+Saving cached data to ../soccerdata_local/data/Sofascore
+
+INFO 2026-09-04 20:50:52,831 [_common.py:seasons:462]
+No seasons provided. Will retrieve data for the last 5 seasons.
+
+WARNING 2026-09-04 20:50:52,835 [_py_warnings.py:_showwarnmsg:230]
+/home/achojabier/football_eyes/.venv/lib/python3.14/site-packages/soccerdata/_common.py:419: UserWarning: The leagues have different default season codes. Using multi-year season codes.
+  return SeasonCode.from_leagues(self.leagues)
+
+
